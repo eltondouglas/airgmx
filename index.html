@@ -12,6 +12,7 @@
     <!------------------------------------------------------------------------------------------------------------------------------->
     <!-----------------------------------------------------Estilo-do-dev------------------------------------------------------------->
     <link rel="stylesheet" href="css/main.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-------------------------------------------------------Scripts----------------------------------------------------------------->
     <script type="text/javascript"
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB97LSZvcgB9Dw16VToxos90bdgDhRc-Eg"></script>
@@ -23,6 +24,32 @@
 <body onload="initialize()">
 
     <div class="container">
+
+        <!--Botões de checkin-->
+        <div class="row">
+
+            <div class="col-md-6">
+                <div class="input-group">
+                    <label for="#checkin">Checkin </label>
+                    <input id="checkin" type="date" class="form-control input-width" aria-describedby="input-Checkin">
+                    <div class="input-group-append">
+                        <div class="input-group-text material-icons" id="input-Checkin">today</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-6">
+                <div class="input-group">
+                    <label for="#checkout">Checkout </label>
+                    <input id="checkout" type="date" class="form-control input-width" aria-describedby="input-Checkout">
+                    <div class="input-group-append">
+                        <div class="input-group-text material-icons" id="input-Checkout">today</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
 
         <div id="carouselAir" class="carousel slide" data-ride="carousel">
 

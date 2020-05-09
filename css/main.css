@@ -10,3 +10,28 @@
     margin-bottom: 30px;
     
 }
+
+label {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.input-group {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px;
+    border-radius: 10px;
+    box-shadow: gray 2px 2px 5px;
+}
+
+.input-width {
+    width: 326px;
+    min-width: 326px;
+}
