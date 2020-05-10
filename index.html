@@ -18,6 +18,7 @@
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB97LSZvcgB9Dw16VToxos90bdgDhRc-Eg"></script>
     <!------------------------------------------------------------------------------------------------------------------------------->
     <script src="js/maps.js"></script>
+    <script src="js/date.js"></script>
     <!------------------------------------------------------------------------------------------------------------------------------->
 </head>
 
@@ -28,7 +29,7 @@
         <!--Botões de checkin-->
         <div class="row">
 
-            <div class="col-md-6">
+            <div class="col-md-5">
                 <div class="input-group">
                     <label for="#checkin">Checkin </label>
                     <input id="checkin" type="date" class="form-control input-width" aria-describedby="input-Checkin">
@@ -39,7 +40,7 @@
 
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-5">
                 <div class="input-group">
                     <label for="#checkout">Checkout </label>
                     <input id="checkout" type="date" class="form-control input-width" aria-describedby="input-Checkout">
@@ -47,6 +48,10 @@
                         <div class="input-group-text material-icons" id="input-Checkout">today</div>
                     </div>
                 </div>
+            </div>
+
+            <div class="col-md-2">
+                <button onclick="calcularDias()" class="btn-danger">Calcular</button>
             </div>
 
         </div>
