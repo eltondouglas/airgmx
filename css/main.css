@@ -5,12 +5,6 @@
     margin-right: 10%;
 }
 
-#map {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    
-}
-
 label {
     text-align: center;
     margin-top: auto;
@@ -67,4 +61,23 @@ h5{
     background-color: rgba(53, 212, 87, 0.8);
     width: 200px;
     border-radius: 20px;
+}
+
+.perfilContainer{
+    box-shadow: gray 2px 2px 5px;
+    border-radius: 30px;
+    width: 100px;
+}
+
+.perfil{
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.footerDescription{
+    font-weight: bolder;
 }

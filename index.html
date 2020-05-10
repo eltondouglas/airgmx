@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AirGMX</title>
 
+    <link rel="icon" href="img/favicon.png">
     <!------------------------------------------------------BootStrap---------------------------------------------------------------->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -14,17 +15,23 @@
     <link rel="stylesheet" href="css/main.css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-------------------------------------------------------Scripts----------------------------------------------------------------->
-    <script type="text/javascript"
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB97LSZvcgB9Dw16VToxos90bdgDhRc-Eg"></script>
-    <!------------------------------------------------------------------------------------------------------------------------------->
-    <script src="js/maps.js"></script>
     <script src="js/date.js"></script>
     <!------------------------------------------------------------------------------------------------------------------------------->
 </head>
 
-<body onload="initialize()">
+<body>
 
     <div class="container">
+
+        <!--NavBar-->
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="img/favicon.png" width="48px"></a>
+
+            <form class="form-inline my-2 my-lg-0">
+                <a class="perfilContainer" href="https://about.me/eltondouglas" target="_blank"><img class="perfil" src="img/me.png" width="48px">Elton</a>
+            </form>
+
+        </nav>
 
         <!--Botões de checkin-->
         <div class="row">
@@ -72,17 +79,17 @@
                 <span class="sr-only">Próximo</span>
             </a>
 
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <span class="footerDescription">Developed by Elton with JS</span>
+                <div class="collapse navbar-collapse justify-content-center">
+                  <div class="navbar-nav">
+                    <a class="nav-item nav-link material-icons" href="https://github.com/eltondouglas"><img src="img/github_64_black.png" alt="github"></a>
+                  </div>
+                </div>
+              </nav>
+
         </div>
 
-    </div>
-
-    <div class="container">
-        <div class="row">
-
-            <div class="col-md-12" id="map" style=" width: 100%; height: 600px;">
-
-            </div>
-        </div>
     </div>
 
     <script src="js/main.js"></script>
